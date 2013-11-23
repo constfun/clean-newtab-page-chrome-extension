@@ -1,9 +1,1 @@
-#lga,
-#lga + div,
-.gb_sb.gb_g.gb_yb.gb_i {
-        display: none;
-}
-
-div#most-visited {
-        margin-top: 0;
-}
+#lga,#lga+div,.gb_sb.gb_g.gb_yb.gb_i{display:none}div#most-visited{margin-top:0}#mv-tiles{zoom:1.5}div.mv-fav{zoom:0.66667;left:91.5px}
