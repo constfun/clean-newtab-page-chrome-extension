@@ -1,21 +1,23 @@
-#lga,
-#lga + div,
-.gb_sb.gb_g.gb_yb.gb_i {
-        display: none;
-}
+#gsr {
+        #lga,
+        #lga + div,
+        .gb_sb.gb_g.gb_yb.gb_i {
+                display: none;
+        }
 
-$original_fav_icon_offset: 61px;
-$scale_tiles: 1.5;
+        $original_fav_icon_offset: 61px;
+        $scale_tiles: 1.5;
 
-#mv-tiles {
-        zoom: $scale_tiles;
-}
+        #mv-tiles {
+                zoom: $scale_tiles;
+        }
 
-div.mv-fav,
-div.mv-x {
-        zoom: 1 / $scale_tiles;
-}
+        div.mv-fav,
+        div.mv-x {
+                zoom: 1 / $scale_tiles;
+        }
 
-div.mv-fav {
-        left: $original_fav_icon_offset * $scale_tiles;
+        div.mv-fav {
+                left: $original_fav_icon_offset * $scale_tiles;
+        }
 }
