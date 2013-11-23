@@ -5,6 +5,10 @@
         "description": "Remove the Google search box, doodles, and social links from the New Tab page in Chrome.",
         "version": "0.1",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
+        "icons": {
+                "128": "icon-128.png",
+                "48": "icon-128.png"
+        },
         "content_scripts": [{
                 "matches": ["*://*/*"],
                 "css": ["clean.css"]
