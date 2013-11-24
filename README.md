@@ -1,6 +1,6 @@
 This Chrome extension does two things:
 
- * Removes the Google search box and logo from the New Tab page.
+ * Remove all Google branding, search box, and links from the New Tab page.
  * Increases the size of the thumbnails for most visited sites.
 
 ### This extension uses no JavaScript.
