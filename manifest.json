@@ -2,7 +2,7 @@
         "manifest_version": 2,
 
         "name": "Clean New Tab Page",
-        "description": "Remove the Google search box, doodles, and social links from the New Tab page in Chrome.",
+        "description": "Remove the Google search box, doodles, and social and product links from the New Tab page in Chrome.",
         "version": "0.1",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
         "icons": {
@@ -10,7 +10,7 @@
                 "48": "icon-128.png"
         },
         "content_scripts": [{
-                "matches": ["*://*/*"],
+                "matches": ["https://www.google.com/webhp"],
                 "css": ["clean.css"]
         }]
 }
