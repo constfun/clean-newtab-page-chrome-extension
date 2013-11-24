@@ -2,8 +2,8 @@
         "manifest_version": 2,
 
         "name": "Clean 'New Tab' Page",
-        "description": "Remove the Google search box, doodles, social and product links from the New Tab page.",
-        "version": "0.1.4",
+        "description": "Remove the Google search box and logo from the New Tab page.",
+        "version": "0.1.5",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
         "icons": {
                 "128": "icon-128.png",
