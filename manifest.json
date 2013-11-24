@@ -3,7 +3,7 @@
 
         "name": "Clean 'New Tab' Page",
         "description": "Remove the Google search box, doodles, social and product links from the New Tab page.",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
         "icons": {
                 "128": "icon-128.png",
