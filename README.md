@@ -1,6 +1,6 @@
 This Chrome extension does two things:
 
- * Removes the Google search box, doodles, and social and product links from the New Tab page.
+ * Removes the Google search box, doodles, social and product links from the New Tab page.
  * Increases the size of the thumbnails for most visited sites.
  
 In short, it goes back to the way Chrome used to work, prior to Google marketing taking over the New Tab page.
