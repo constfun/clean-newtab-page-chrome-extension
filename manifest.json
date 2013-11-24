@@ -3,7 +3,7 @@
 
         "name": "Clean New Tab Page",
         "description": "Remove the Google search box, doodles, and social and product links from the New Tab page in Chrome.",
-        "version": "0.1",
+        "version": "0.1.2",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
         "icons": {
                 "128": "icon-128.png",
