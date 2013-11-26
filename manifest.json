@@ -3,14 +3,17 @@
 
         "name": "Clean 'New Tab' Page",
         "description": "Remove all Google branding, search box, and links from the New Tab page.",
-        "version": "0.1.7",
+        "version": "0.2.0",
         "author": "Nikolay Zalutskiy <pacemkr@gmail.com>",
+        "permissions": [
+                "topSites"
+        ],
+        "content_security_policy": "object-src 'chrome-search://thumb'",
         "icons": {
                 "128": "icon-128.png",
                 "48": "icon-128.png"
         },
-        "content_scripts": [{
-                "matches": ["https://www.google.com/webhp"],
-                "css": ["clean.css"]
-        }]
+        "chrome_url_overrides": {
+                "newtab": "newtab.html"
+        }
 }
